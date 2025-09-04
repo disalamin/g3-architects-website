@@ -33,6 +33,14 @@
 
 }
 
+.main-section{
+    max-width: 1000px;
+    margin: 0 auto;
+    
+}
+main > section{
+    margin-top: 100px;
+}
 /* header styles */
 
 /* navbar related styles */
@@ -70,6 +78,27 @@
 }
 .banner-img{
     width: 100%;
+}
+
+/* Teams & Feature related Styles */
+.teams{
+    align-items: center;
+}
+.team-image-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+}
+.our-features{
+    margin-left: 100px;
+    max-width: 500px;
+}
+.features-title{
+font-size: 1.9rem;
+}
+
+#quick-list{
+    font-weight: 700;
 }
 
 /* responsive media query */
